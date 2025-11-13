@@ -1,0 +1,58 @@
+.home-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #f3f6fb 0%, #e8ecf5 100%);
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.3rem;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+p {
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+}
+
+.info-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.info-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.info-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
