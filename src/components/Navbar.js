@@ -1,18 +1,37 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import logo from "../img/logo.png";
 
-export default function Navbar() {
+function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-container">
-        <h1 className="logo">My Portfolio</h1>
-        <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
+    <nav className="navbar navbar-dark fixed-top">
+      <div className="container nav-container">
+        <div className="nav-logo d-flex align-items-center">
+          <img src={logo} alt="Logo" className="logo" />
+          <span className="nav-title ms-2">My Portfolio</span>
+        </div>
+
+        <ul className="nav-links d-flex">
+          <li>
+            <Link to="/" className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" className="nav-link">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link to="/skills" className="nav-link">
+              Skills
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
   );
 }
+
+export default Navbar;

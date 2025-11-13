@@ -2,12 +2,22 @@ import React from "react";
 import "../styles/Skills.css";
 
 export default function Skills() {
-  const skills = ["HTML", "CSS", "JavaScript", "React", "Git", "Docker", "Java"];
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Java",
+    "Git",
+    "Docker",
+  ];
 
   return (
-    <section className="skills-section">
-      <h2 className="skills-title">My Technical Skills</h2>
-      
+    <div className="skills-container">
+      <div className="skills-header">
+        <h1>Technical Skills</h1>
+      </div>
+
       <div className="skills-grid">
         {skills.map((skill, index) => (
           <div key={index} className="skill-card">
@@ -15,6 +25,6 @@ export default function Skills() {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

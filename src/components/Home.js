@@ -15,18 +15,20 @@ const Home = () => {
       <div className="info-section">
         <div className="info-card">
           <h3>🎓 Education</h3>
+          <p>BS Computer Science — Pamantasan ng Cabuyao</p>
           <p>
-            BS Computer Science — Pamantasan ng Cabuyao
+            Focused on software development, algorithms, and data structures.
           </p>
-          <p>Focused on software development, algorithms, and data structures.</p>
         </div>
 
         <div className="info-card">
           <h3>💼 Projects</h3>
           <p>
-            - <strong>AuraTech:</strong> E-commerce website built with React and Node.js. <br />
-            - <strong>La Turon:</strong> Business plan for a healthy Filipino snack product. <br />
-            - <strong>POS System:</strong> Library and inventory management using Java GUI.
+            - <strong>AuraTech:</strong> E-commerce website built with React and
+            Node.js. <br />- <strong>FitnessFrontier:</strong> E-commerce
+            website for a healthy lifestyle. <br />-{" "}
+            <strong>POS System:</strong> Library and inventory management using
+            Java GUI.
           </p>
         </div>
 
@@ -40,7 +42,16 @@ const Home = () => {
         <div className="info-card">
           <h3>📩 Contact</h3>
           <p>Email: terrencemanlapaz@gmail.com</p>
-          <p>GitHub: <a href="https://github.com/TerrenceJohn" target="_blank" rel="noreferrer">github.com/TerrenceJohn</a></p>
+          <p>
+            GitHub:{" "}
+            <a
+              href="https://github.com/TerrenceJohn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github.com/TerrenceJohn
+            </a>
+          </p>
         </div>
       </div>
     </div>
